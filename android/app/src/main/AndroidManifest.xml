@@ -18,7 +18,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".FlutterViewActivity"
+            android:name="com.example.myflutter.FlutterViewActivity"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
     </application>
 

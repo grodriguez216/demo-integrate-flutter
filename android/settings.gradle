@@ -1,5 +1,6 @@
 rootProject.name = 'Demo Integrate Flutter'
 include ':app'
+include ':myflutter'
 
 // For Option B - Depend on the module’s source code
 setBinding(new Binding([gradle: this]))

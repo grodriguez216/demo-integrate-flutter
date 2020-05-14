@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity() {
   }
 
   private fun sendDataToFlutterModule(param: String, screen: String) {
-    val intent = Intent(this, FlutterViewActivity::class.java)
+    val intent = Intent(this, com.example.myflutter.FlutterViewActivity::class.java)
     intent.putExtra("param", param)
     intent.putExtra("screen", screen)
     startActivity(intent)
